@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Rabanita ❤️</title>
+</head>
+<body>
+    <h1>Amor de mi vida ❤️</h1>
+    <div class="contenedor">
+        <div class="envoltura-sobre">
+            <div class="sobre">
+                <div class="carta">
+                    <div class="contenido">
+                        <strong>Amor de mi vida</strong>
+                        <p>
+                            Quiero que nunca olvides lo increíble que eres. Eres esa persona que ilumina incluso mis días más difíciles, la razón por la que sonrío sin darme cuenta y el motivo por el que creo en cosas bonitas como el destino.
+                            <br><br>
+
+No importa lo que venga, ni lo complicado que parezca el camino… contigo todo tiene sentido. Eres fuerte, valiente y capaz de lograr todo lo que te propongas. Yo voy a estar a tu lado, apoyándote, admirándote y amándote en cada paso.
+<br><br>
+Gracias por existir, por elegirme y por llenar mi vida de tanto amor. Nunca dudes de lo especial que eres, porque para mí… eres todo. 🌹
+<br><br>
+Te amo hoy, mañana y siempre.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="corazon"></div>
+            <div class="solapa-derecha"></div>
+            <div class="solapa-izquierda"></div>
+        </div>
+    </div>
+    <!-- <script src="script_v2.js"></script> -->
+     <script src="script_v2.js"></script>
+
+    <button onclick="toggleMusica()" style="
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 20px;
+        background: #ff477e;
+        color: white;
+        cursor: pointer;">
+        🎵 Música
+    </button>
+
+<audio id="musica">
+    <source src="Emmanuell Cortess-Amor(letra lyrics).mp3" type="audio/mpeg">
+</audio>
+<script>
+function toggleMusica() {
+    var audio = document.getElementById("musica");
+
+    if (audio.paused) {
+        audio.play();
+    } else {
+        audio.pause();
+    }
+}
+</script>
+</body>
+</html>
